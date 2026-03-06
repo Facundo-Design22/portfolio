@@ -1,0 +1,42 @@
+@use "../scss/utilities/variables" as *;
+
+header {
+    background-color: $color-secundario;
+    @extend %flexrowspacebetweencenter;
+}
+
+ul {
+    list-style: none;
+    @extend %flexrow;
+}
+
+h1{
+    font-family: $fuente-titulos;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-family: $fuente-titulos;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+   font-family: $fuente-texto;
+   font-weight: 700;
+   font-size: 5rem;
+
+}
+
+h4 {
+    font-family: $fuente-titulos;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+p {
+   font-family: $fuente-texto;
+   font-weight: 400; 
+}

@@ -1,3 +1,63 @@
+.permanent-marker-regular {
+  font-family: "permanent marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "ZT Nature";
+  src: url("/assets/fuentes/ZTNature-Regular.woff2") format("woff2"), url("/assets/fuentes/ZTNature-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  background-color: #20201e;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "ZT Nature", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+h4 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "ZT Nature", sans-serif;
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=main.css.map */
