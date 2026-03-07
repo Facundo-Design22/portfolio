@@ -11,10 +11,15 @@
   font-style: normal;
 }
 header {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar .nav-link, footer .navbar .nav-link {
+  text-decoration: none;
+  font-family: "ZT Nature", sans-serif;
+  font-weight: 300;
 }
 
 ul {
@@ -26,8 +31,43 @@ header {
   background-color: #20201e;
 }
 
+.titulo {
+  color: #ff6b0f;
+}
+
+.navbar .nav-link {
+  color: #f9ffd9;
+}
+.navbar .nav-link:hover {
+  color: #ff6b0f;
+}
+
+.navbar-toggler {
+  background-color: #ff6a00 !important;
+  color: rgba(255, 106, 0, 0.5411764706) !important;
+  border: none !important;
+}
+
 ul {
   list-style: none;
+}
+
+body {
+  background-color: #f9ffd9;
+  margin: 0;
+}
+
+main {
+  background-color: #f9ffd9;
+}
+
+label {
+  font-family: "ZT Nature", sans-serif;
+  font-weight: 400;
+}
+
+li {
+  padding: 0 10px;
 }
 
 h1 {
@@ -58,6 +98,126 @@ h4 {
 p {
   font-family: "ZT Nature", sans-serif;
   font-weight: 400;
+}
+
+.btn-primary.btn-enviar {
+  background-color: #ff6b0f;
+  border-color: #ff6b0f;
+  color: #f9ffd9;
+}
+.btn-primary.btn-enviar:hover {
+  background-color: #b64703;
+  border-color: #b64703;
+  color: #f9ffd9;
+}
+
+footer {
+  background-color: #ff6b0f;
+}
+footer .navbar .nav-link {
+  color: #20201e;
+}
+footer .navbar .nav-link:hover {
+  color: #f9ffd9;
+}
+footer img {
+  color: #20201e;
+}
+
+.clientesfondo {
+  background-color: #ff6b0f;
+}
+.clientesfondo img {
+  padding: 10px;
+}
+
+.card.card-servicio {
+  background-color: #20201e;
+  color: #f9ffd9;
+  border: none;
+}
+
+.card-servicio .btn-primary {
+  background-color: #ff6b0f;
+  border: none;
+}
+
+.section-proyectos {
+  background-color: #f9ffd9;
+}
+
+.card.card-producto {
+  background-color: #20201e;
+  color: #f9ffd9;
+}
+
+.espaciado-400 {
+  width: 400px;
+}
+
+.espaciado-50 {
+  width: 150px;
+}
+
+.espaciado-250 {
+  width: 250px;
+}
+
+.espaciado-240 {
+  width: 235px;
+}
+
+.espaciado-uno {
+  width: 500px;
+}
+
+.espaciado-dos {
+  width: 250px;
+}
+
+.redes-35 {
+  width: 35px;
+  margin: 0 10px;
+}
+
+.contenedor-img {
+  padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+  .row > div[class*=col-4] {
+    width: 50%;
+  }
+  .card-servicio {
+    width: 100% !important;
+  }
+  .espaciado-250 {
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 768px) {
+  .proyectos {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  .proyectos .row {
+    flex-direction: column;
+    gap: 1rem !important;
+  }
+  .proyectos .col {
+    width: 100%;
+  }
+  .proyectos .espaciado-uno,
+  .proyectos .espaciado-dos {
+    width: 100%;
+    height: auto;
+  }
+  .proyectos p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

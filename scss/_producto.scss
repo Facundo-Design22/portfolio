@@ -1,0 +1,6 @@
+@use "../scss/utilities/variables" as *;
+
+.card.card-producto {
+  background-color: $color-secundario;
+  color: $color-primario;
+}

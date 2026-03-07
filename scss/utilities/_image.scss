@@ -1,0 +1,36 @@
+@mixin ancho($size) {
+  width: $size;
+}
+
+.espaciado-400 {
+  @include ancho(400px);
+}
+
+.espaciado-50 {
+  @include ancho(150px);
+}
+
+.espaciado-250 {
+  @include ancho(250px);
+}
+
+.espaciado-240 {
+  @include ancho(235px);
+}
+
+.espaciado-uno {
+  @include ancho(500px);
+}
+
+.espaciado-dos {
+  @include ancho(250px);
+}
+
+.redes-35 {
+  @include ancho(35px);
+  margin: 0 10px;
+}
+
+.contenedor-img{
+  padding: 0 16px;
+}

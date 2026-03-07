@@ -5,9 +5,46 @@ header {
     @extend %flexrowspacebetweencenter;
 }
 
+.titulo {
+    color: $color-detalles;
+}
+
+.navbar .nav-link {
+  @extend %nav-link-base;
+  color: $color-primario;
+
+  &:hover {
+    color: $color-detalles;
+  }
+}
+
+.navbar-toggler {
+  background-color: #ff6a00 !important;
+  color: #ff6a008a !important;
+  border: none !important;
+}
+
 ul {
     list-style: none;
     @extend %flexrow;
+}
+
+body {
+  background-color: $color-primario;
+  margin: 0;
+}
+
+main {
+  background-color: $color-primario;
+}
+
+label {
+  font-family: $fuente-texto;
+  font-weight: 400;
+}
+
+li {
+  padding: 0 10px;
 }
 
 h1{
@@ -39,4 +76,29 @@ h4 {
 p {
    font-family: $fuente-texto;
    font-weight: 400; 
+}
+
+//boton//
+
+.btn-primary.btn-enviar {
+  @include boton($color-detalles, $color-detalles-hover, $color-primario);
+}
+
+//footer//
+
+footer {
+  background-color: $color-detalles;
+
+  .navbar .nav-link {
+    @extend %nav-link-base;
+    color: $color-secundario;
+
+    &:hover {
+      color: $color-primario;
+    }
+  }
+
+  img {
+    color: $color-secundario;
+  }
 }

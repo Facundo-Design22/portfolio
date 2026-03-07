@@ -15,18 +15,38 @@
 $color-primario: #f9ffd9;
 $color-secundario: #20201e;
 $color-detalles:#ff6b0f;
+$color-detalles-hover: #b64703;
 $fuente-titulos: "Permanent Marker", cursive;
 $fuente-texto: "ZT Nature", sans-serif;
 
 
 %flexrowspacebetweencenter {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+%nav-link-base {
+  text-decoration: none;
+  font-family: $fuente-texto;
+  font-weight: 300;
+}
+
 %flexrow {
     display: flex;
     flex-direction: row;
+}
+
+//Boton//
+
+@mixin boton($bg, $hover, $text) {
+  background-color: $bg;
+  border-color: $bg;
+  color: $text;
+
+  &:hover {
+    background-color: $hover;
+    border-color: $hover;
+    color: $text;
+  }
 }

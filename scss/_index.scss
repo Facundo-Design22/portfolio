@@ -1,0 +1,10 @@
+@use "../scss/utilities/variables" as *;
+
+.clientesfondo {
+  background-color: $color-detalles;
+
+  img {
+    padding: 10px;
+  }
+}
+

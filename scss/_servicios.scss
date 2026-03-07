@@ -1,0 +1,12 @@
+@use "../scss/utilities/variables" as *;
+
+.card.card-servicio {
+  background-color: $color-secundario;
+  color: $color-primario;
+  border: none;
+}
+
+.card-servicio .btn-primary {
+  background-color: $color-detalles;
+  border: none;
+}
