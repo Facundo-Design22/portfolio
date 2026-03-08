@@ -8,3 +8,40 @@
   }
 }
 
+.hero {
+  padding: 40px 20px;
+  background: linear-gradient(0, $color-primario, $color-detalles);
+
+  &__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  &__content{
+    max-width: 600px;
+
+    h1{
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    p{
+      font-size: 1.2rem;
+      color: #333;
+    }
+  }
+
+  &__images{
+    display: flex;
+    gap: 2rem;
+
+    img{
+      width: 140px;
+      height: auto;
+    }
+  }
+}
