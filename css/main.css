@@ -1,5 +1,5 @@
-.permanent-marker-regular {
-  font-family: "permanent marker", cursive;
+.oregano-regular {
+  font-family: "Oregano", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -71,13 +71,13 @@ li {
 }
 
 h1 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Oregano", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
 h2 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Oregano", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -89,7 +89,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Oregano", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
@@ -311,8 +311,8 @@ footer img {
   footer ul li {
     margin: 4px 0;
   }
-  footer ul li a {
-    font-size: 0.9rem;
+  footer a {
+    font-size: 12px !important;
   }
 }
 
